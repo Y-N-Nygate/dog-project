@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-Welcome to my Convolutional Neural Networks (CNN) project! In this project, I build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm identifies an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Welcome to my Convolutional Neural Networks (CNN) project! In this project, I have built a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm identifies an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 Note: This project is based on the CNN project from Udacity's Deep Learning Nanodegree.
 
