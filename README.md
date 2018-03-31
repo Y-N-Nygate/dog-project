@@ -17,7 +17,7 @@ Note: This project is based on the CNN project from Udacity's Deep Learning Nano
 
 ### Instructions 
 
-Note: The jupyter notebook is completed! you can load my trained weights located in 'saved_models' and add your own images to the folder 'my_images' in order to test the app on customized images. Otherwise, you can train the models in this notebook from the begining and try to improve the results.
+Note: The jupyter notebook in this repository is completed! you can load my trained weights located in 'saved_models' and add your own images to the folder 'my_images' in order to test the app on customized images. Otherwise, you can train the models in this notebook from the begining and try to improve the results.
 
 1. Clone the repository and navigate to the downloaded folder.
 ```	
