@@ -13336,7 +13336,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Load the model weights with the best validation loss.</span>
@@ -13359,7 +13359,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Calculate classification accuracy on the test dataset.</span>
@@ -13418,7 +13418,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Write a function that takes a path to an image as input</span>
@@ -13462,7 +13462,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Write your algorithm.</span>
@@ -13472,13 +13472,10 @@ Epoch 20/20
         <span class="c1">### return the predicted breed</span>
         <span class="n">breed</span> <span class="o">=</span> <span class="n">my_model_predict_breed</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hey doggy! You are a: &quot;</span><span class="p">,</span> <span class="n">breed</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="n">face_detector</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
+    <span class="k">else</span><span class="p">:</span>
         <span class="c1">### return the resembling dog breed</span>
         <span class="n">breed</span> <span class="o">=</span> <span class="n">my_model_predict_breed</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hey Human! You really resemble a: &quot;</span><span class="p">,</span> <span class="n">breed</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="c1">### return an error message</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Unidentified species! Go away you alien, leave our planet alone!!&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13509,7 +13506,7 @@ In order to improve the algorithm I would:</span></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## TODO: Execute your algorithm from Step 6 on</span>
@@ -13590,7 +13587,7 @@ Hey Human! You really resemble a:  Cane_corso
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;module &#39;keras.preprocessing.image&#39; from &#39;/Users/yoavnygate/anaconda2/envs/dlnd/lib/python3.6/site-packages/keras/preprocessing/image.py&#39;&gt;
-Unidentified species! Go away you alien, leave our planet alone!!
+Hey Human! You really resemble a:  Yorkshire_terrier
 </pre>
 </div>
 </div>
@@ -13752,7 +13749,7 @@ Hey doggy! You are a:  Golden_retriever
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;module &#39;keras.preprocessing.image&#39; from &#39;/Users/yoavnygate/anaconda2/envs/dlnd/lib/python3.6/site-packages/keras/preprocessing/image.py&#39;&gt;
-Unidentified species! Go away you alien, leave our planet alone!!
+Hey Human! You really resemble a:  French_bulldog
 </pre>
 </div>
 </div>
@@ -13806,7 +13803,7 @@ Hey Human! You really resemble a:  Yorkshire_terrier
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;module &#39;keras.preprocessing.image&#39; from &#39;/Users/yoavnygate/anaconda2/envs/dlnd/lib/python3.6/site-packages/keras/preprocessing/image.py&#39;&gt;
-Unidentified species! Go away you alien, leave our planet alone!!
+Hey Human! You really resemble a:  Chinese_crested
 </pre>
 </div>
 </div>
